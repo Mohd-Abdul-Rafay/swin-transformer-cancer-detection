@@ -113,6 +113,13 @@ swin-transformer-cancer-detection/
 
 ---
 
+## Author
+
+**Abdul Rafay Mohd**  
+Artificial Intelligence | Medical AI | Computer Vision  
+
+---
+
 ## Citation
 
 If this work is useful in your research, please cite:
