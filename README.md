@@ -78,9 +78,10 @@ results/
 │   ├── pr_val.png
 │   └── confusion_matrix_val.png
 └── test/
-├── roc_test.png
-├── pr_test.png
-└── confusion_matrix_test.png
+│   ├── roc_test.png
+│   ├── pr_test.png
+│   └── confusion_matrix_test.png
+
 
 ---
 
@@ -119,11 +120,3 @@ If this work is useful in your research, please cite:
   year    = {2025},
   url     = {https://github.com/Mohd-Abdul-Rafay/swin-transformer-cancer-detection}
 }
-
----
-
-
-## Author
-
-Abdul Rafay Mohd
-Artificial Intelligence | Medical AI | Computer Vision
