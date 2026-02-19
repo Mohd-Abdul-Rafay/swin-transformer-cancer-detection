@@ -78,10 +78,9 @@ results/
 │   ├── pr_val.png
 │   └── confusion_matrix_val.png
 └── test/
-│   ├── roc_test.png
-│   ├── pr_test.png
-│   └── confusion_matrix_test.png
-
+├── roc_test.png
+├── pr_test.png
+└── confusion_matrix_test.png
 
 ---
 
