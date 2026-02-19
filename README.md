@@ -108,7 +108,6 @@ swin-transformer-cancer-detection/
 ├── results/
 │   ├── validation/
 │   └── test/
-├── assets/
 ├── requirements.txt
 ├── LICENSE
 └── README.md
