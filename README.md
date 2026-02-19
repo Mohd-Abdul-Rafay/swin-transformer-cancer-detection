@@ -120,6 +120,12 @@ Artificial Intelligence | Medical AI | Computer Vision
 
 ---
 
+## License
+
+This project is licensed under the terms of the [MIT License](LICENSE).
+
+---
+
 ## Citation
 
 If this work is useful in your research, please cite:
