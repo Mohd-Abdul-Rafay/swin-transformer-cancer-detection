@@ -72,15 +72,17 @@ Evaluation includes ROC curves, Precision–Recall analysis, and confusion matri
 
 ## Results Structure
 
+```
 results/
 ├── validation/
 │   ├── roc_val.png
 │   ├── pr_val.png
 │   └── confusion_matrix_val.png
 └── test/
-├── roc_test.png
-├── pr_test.png
-└── confusion_matrix_test.png
+    ├── roc_test.png
+    ├── pr_test.png
+    └── confusion_matrix_test.png
+```
 
 ---
 
@@ -95,6 +97,8 @@ results/
 
 ## Repository Structure
 
+
+```
 swin-transformer-cancer-detection/
 ├── notebooks/
 │   └── swin-transformers-version2.ipynb
@@ -105,6 +109,7 @@ swin-transformer-cancer-detection/
 ├── requirements.txt
 ├── LICENSE
 └── README.md
+```
 
 ---
 
