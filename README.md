@@ -22,11 +22,14 @@ This project evaluates transformer-based modeling under these constraints.
 
 ## Dataset
 
-- **Dataset:** PCam (PatchCamelyon)  
-- Binary classification: Tumor vs. Non-Tumor  
-- Controlled split: 60% Train / 20% Validation / 20% Test  
+This project uses the PatchCamelyon (PCam) dataset for binary classification of histopathology image patches (tumor vs. non-tumor tissue).
 
-The dataset is not redistributed in this repository.
+The dataset was originally released for the Kaggle **Histopathologic Cancer Detection** competition.
+
+Source:
+https://www.kaggle.com/competitions/histopathologic-cancer-detection
+
+The dataset is not redistributed in this repository and must be obtained directly from Kaggle.
 
 ---
 
