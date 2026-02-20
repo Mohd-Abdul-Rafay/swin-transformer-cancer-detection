@@ -155,14 +155,8 @@ This project is licensed under the terms of the [MIT License](LICENSE).
 
 ---
 
-## Citation
+## Project Context
 
-If this work is useful in your research, please cite:
+This repository contains the Swin Transformer implementation developed by Abdul Rafay Mohd as part of a 5-member academic project.
 
-```bibtex
-@software{rafay2025swinmedical,
-  author  = {Abdul Rafay Mohd},
-  title   = {Swin Transformer for Histopathologic Cancer Detection},
-  year    = {2025},
-  url     = {https://github.com/Mohd-Abdul-Rafay/swin-transformer-cancer-detection}
-}
+Other team members contributed to project coordination, alternative model experimentation, feature engineering, and deployment infrastructure.
