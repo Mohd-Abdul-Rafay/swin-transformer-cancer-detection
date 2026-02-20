@@ -3,7 +3,16 @@
 
 This repository presents a transformer-based Medical AI pipeline for automated detection of metastatic cancer in histopathology image patches using the PCam (PatchCamelyon) dataset.
 
-The project focuses on applying Vision Transformers to medical imaging while emphasizing robust evaluation under class imbalance and clinically relevant performance trade-offs.
+The project investigates the practical application of Vision Transformers in computational pathology, with emphasis on generalization robustness, calibration behavior, and clinically meaningful evaluation under class imbalance.
+
+Key objectives:
+
+- Fine-tune a pretrained Swin Transformer for binary tumor classification  
+- Establish a controlled 60/20/20 train–validation–test split  
+- Evaluate performance using ROC-AUC, PR-AUC, sensitivity, specificity, and confusion matrix analysis  
+- Analyze diagnostic trade-offs between false positives and false negatives in a medical setting  
+
+This work highlights how transformer architectures behave under limited-resolution medical patch constraints and real-world diagnostic performance requirements.
 
 ---
 
@@ -17,6 +26,24 @@ Histopathology cancer detection requires:
 - Reliable evaluation beyond simple accuracy  
 
 This project evaluates transformer-based modeling under these constraints.
+
+---
+
+## Role & Contribution
+
+This project was developed as part of a 5-member team.
+
+I served as the primary model developer and was responsible for:
+
+- Designing and implementing the full Swin Transformer training pipeline
+- Building custom Dataset and DataLoader modules in PyTorch
+- Defining and enforcing the 60/20/20 train–validation–test split
+- Fine-tuning the pretrained `swin_tiny_patch4_window7_224` model (timm)
+- Implementing augmentation strategies (rotations, affine transforms)
+- Developing evaluation pipeline (ROC-AUC, PR-AUC, confusion matrix, sensitivity/specificity)
+- Conducting model performance analysis and diagnostic interpretation
+
+Team contributions included project coordination, feature engineering support, parallel model experimentation, and deployment assistance.
 
 ---
 
